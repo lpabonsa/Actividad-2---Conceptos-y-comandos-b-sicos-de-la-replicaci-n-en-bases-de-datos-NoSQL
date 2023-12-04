@@ -1,0 +1,8 @@
+# Nodo 1
+mongo --host <IP_NODO_1> --port <PUERTO> --username <USUARIO> --password <CONTRASEÑA>
+
+  # Nodo 2
+mongo --host <IP_NODO_2> --port <PUERTO> --username <USUARIO> --password <CONTRASEÑA>
+
+# Nodo 3
+mongo --host <IP_NODO_3> --port <PUERTO> --username <USUARIO> --password <CONTRASEÑA>
