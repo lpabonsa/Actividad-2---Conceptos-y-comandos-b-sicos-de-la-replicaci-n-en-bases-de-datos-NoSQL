@@ -1,0 +1,4 @@
+// Ejemplo en MongoDB Node.js Driver
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb://<USUARIO>:<CONTRASEÑA>@<IP_NODO_PRIMARIO>:<PUERTO>,<IP_NODO_SECUNDARIO_1>:<PUERTO>,<IP_NODO_SECUNDARIO_2>:<PUERTO>/miBaseDeDatos?replicaSet=miReplicaSet";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
