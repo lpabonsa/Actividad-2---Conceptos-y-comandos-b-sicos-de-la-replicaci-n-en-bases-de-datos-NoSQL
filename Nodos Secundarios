@@ -1,0 +1,3 @@
+# En el nodo principal
+rs.add("<IP_NODO_2>:<PUERTO>")
+rs.add("<IP_NODO_3>:<PUERTO>")
