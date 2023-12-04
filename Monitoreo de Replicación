@@ -1,0 +1,2 @@
+# En cualquier nodo
+rs.printReplicationInfo()
